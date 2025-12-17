@@ -1,0 +1,48 @@
+.urun1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin: 10px 0;
+    height: 90vh;
+}
+
+
+.urun1 img{
+    width: 350px;
+    height: 400px;
+    border: 1px solid #00000065;
+
+}
+
+.urun1 .p1{
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.p2{
+    color:#B85C1E ;
+    font-weight: bolder;
+    font-size: 20px;
+     justify-content: flex-start;
+}
+
+.sepet{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #00000065;
+    background-color: #F5F0E6;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card1:hover .sepet{
+    background-color:#B85C1E ;
+    color: #fff;
+}
+
+ .card2:hover .sepet{
+    background-color:#B85C1E ;
+    color: #fff;
+}
